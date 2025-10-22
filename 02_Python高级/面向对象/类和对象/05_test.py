@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Python面向对象编程 - 多态（Polymorphism）示例代码
 
