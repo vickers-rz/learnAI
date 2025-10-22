@@ -202,80 +202,10 @@ for shape in shapes:
     print(f"  面积: {shape.area():.2f}")
     print(f"  周长: {shape.perimeter():.2f}")
 
-
-# 4. 使用isinstance检查对象类型
-# ================================
-
-print("\n=== 类型检查 ===")
-for shape in shapes:
-    # isinstance()函数用于检查对象是否是某个类或其子类的实例
-    if isinstance(shape, Rectangle):
-        print(f"{shape} 是矩形")
-    elif isinstance(shape, Circle):
-        print(f"{shape} 是圆形")
-    elif isinstance(shape, Triangle):
-        print(f"{shape} 是三角形")
-    else:
-        print(f"{shape} 是未知形状")
-
-
-# 5. 抽象基类（更严格的多态）
-# ================================
-
-from abc import ABC, abstractmethod
-
-class AbstractShape(ABC):
-    """
-    抽象形状基类
-    使用ABC（Abstract Base Class）创建更严格的抽象类
-    """
-    
-    @abstractmethod
-    def area(self):
-        """抽象方法：计算面积"""
-        pass
-    
-    @abstractmethod
-    def perimeter(self):
-        """抽象方法：计算周长"""
-        pass
-
-
-class Square(AbstractShape):
-    """正方形类"""
-    
-    def __init__(self, side):
-        """
-        初始化正方形
-        
-        参数:
-            side (float): 正方形的边长
-        """
-        self.side = side
-    
-    def area(self):
-        """计算正方形面积"""
-        return self.side ** 2
-    
-    def perimeter(self):
-        """计算正方形周长"""
-        return 4 * self.side
-
-
-print("\n=== 抽象基类示例 ===")
-# 创建正方形实例
-square = Square(4)
-
-print(f"正方形:")
-print(f"  面积: {square.area()}")
-print(f"  周长: {square.perimeter()}")
-
-# 抽象基类不能被直接实例化
-# 下面这行代码会报错：
-# abstract_shape = AbstractShape()  # TypeError: Can't instantiate abstract class
-
-print("\n=== 多态的优势 ===")
-print("1. 代码可扩展性好：添加新的形状类不需要修改现有代码")
-print("2. 代码复用性高：可以使用统一的接口处理不同的对象")
-print("3. 降低耦合度：调用者不需要关心具体是哪种类型的对象")
-print("4. 提高可维护性：每个类负责自己的实现，职责清晰")
+"""
+***多态的优势***
+1. 代码可扩展性好：添加新的形状类不需要修改现有代码")
+2. 代码复用性高：可以使用统一的接口处理不同的对象")
+3. 降低耦合度：调用者不需要关心具体是哪种类型的对象")
+4. 提高可维护性：每个类负责自己的实现，职责清晰")
+"""
