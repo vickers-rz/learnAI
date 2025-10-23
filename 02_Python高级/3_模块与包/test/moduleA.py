@@ -49,7 +49,7 @@ def mul(a, b):
 def div(a, b):
     return a / b
 
-__all__ = ['add', 'sub', 'mul'] # 指定模块中哪些对象应该被导入,此处特意漏掉了div ，只针对 from 模块 import * 这种调用方法生效
+__all__ = ['a','add', 'sub', 'mul'] # 指定模块中哪些对象应该被导入,此处特意漏掉了div ，只针对 from 模块 import * 这种调用方法生效
 """
 __all__ 是一个列表，用于指定模块中哪些对象应该被导入。
 当使用 from module import * 时，Python 解释器会自动将 __all__ 中的对象导入到当前作用域。

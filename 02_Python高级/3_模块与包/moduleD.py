@@ -19,7 +19,6 @@ print(mul(2,5))
 # print(div(10,2)) # 会报错：模块a中没有div函数，因为 __all__ 中没有div
 
 import moduleA
-print(add(2,5))
-print(moduleA.div(10,2))
-print(moduleA.mul(2,5))
-
+print(add(2,5)) # 上面已经导入过模块add，所以这里可以省略模块名
+print(moduleA.div(10, 2))
+print(moduleA.mul(2, 5))
