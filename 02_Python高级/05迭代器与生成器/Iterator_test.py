@@ -89,22 +89,22 @@ class MyRangeIterator:  # 定义一个名为MyRangeIterator的类
 # for i in MyRangeIterator(5):  # for循环会自动调用迭代器的__next__方法
 #     print(i)  # 打印迭代器返回的每个值
 
-mr=MyRangeIterator(5)       #创建对象的自动调用__init__方法进行初始化，__iter__方法返回自身
-print(type(mr))
-for i in mr:       #for循环自动调用迭代器 __next__方法
-    print(i)
-
-
-list2=[12,34,56,78]
-mylist=list2.__iter__()
-print(type(mylist))
+# mr=MyRangeIterator(5)       #创建对象的自动调用__init__方法进行初始化，__iter__方法返回自身
+# print(type(mr))
+# for i in mr:       #for循环自动调用迭代器 __next__方法
+#     print(i)
+#
+#
+# list2=[12,34,56,78]
+# mylist=list2.__iter__()
+# print(type(mylist))
 
 # 创建一个字典，这是一个内置的可迭代对象
-my_dict = {1: 'one', 2: 'two', 3: 'three'}
+# my_dict = {1: 'one', 2: 'two', 3: 'three'}
 
 # 使用 iter() 函数获取字典的迭代器
-dict_iter = my_dict.__iter__()
-print(type(dict_iter))
+# dict_iter = my_dict.__iter__()
+# print(type(dict_iter))
 
 
 # 使用迭代器的 __next__() 方法来遍历字典
@@ -125,71 +125,30 @@ print(type(dict_iter))
 
 # 斐波那契数列的实现：
 
-class FeiBo:  # 斐波那契的迭代器
-    def __init__(self, n):
-        """
-        初始化斐波那契迭代器
-        :param n: 要生成的斐波那契数列项数
-        斐波那契数列的特点是：前两项固定为0和1，从第三项开始，每项都是前两项的和
-        """
-        self.n = int(n)  # 确保n是整数
-        self.count = 0   # 已生成的项数
-        self.a = 0       # 前一项
-        self.b = 1       # 当前项
+class FibonacciIterator:  # 创建一个名为FibonacciIterator的类
+    def __init__(self,n):
+        self.n = n
+        self.a, self.b = 0, 1
+        self.count = 0
 
     def __iter__(self):
-        return self  # 迭代器返回自身
+        return self
 
     def __next__(self):
-        if self.count >= self.n:
-            raise StopIteration
-        
-        if self.count == 0:
+        if self.count < self.n:
+            value = self.a
+            self.a , self.b = self.b, self.a + self.b
             self.count += 1
-            return self.a
-        elif self.count == 1:
-            self.count += 1
-            return self.b
+            return value
         else:
-            # 计算下一项
-            next_value = self.a + self.b
-            self.a, self.b = self.b, next_value
-            self.count += 1
-            return next_value
+            raise StopIteration
 
-#
-n = input("请输入数列个数：")
-if n.isdigit() and int(n) > 0:
-    feiBo = FeiBo(n)
-    print("斐波那契数列:")
-    for i in feiBo:
-        print(i, end=' ')
-    print()  # 换行
-else:
-    print("请输入一个正整数")
+feibo = FibonacciIterator(5)
+for i in feibo:
+    print(i)
 
-# 添加一个普通函数来实现类似 __next__ 的功能
-def next_value(iterator_state, end_value):
-    """
-    模拟 __next__ 方法的普通函数
-    :param iterator_state: 包含当前状态的字典，必须有 'current' 键
-    :param end_value: 结束值
-    :return: 下一个值或 None（表示迭代完成）
-    """
-    if iterator_state['current'] < end_value:
-        value = iterator_state['current']
-        iterator_state['current'] += 1
-        return value
-    else:
-        return None  # 表示迭代完成
-
-# 使用示例
-print("\n使用普通函数模拟迭代器:")
-state = {'current': 0}
-end = 5
-while True:
-    val = next_value(state, end)
-    if val is None:
-        print("迭代完成")
-        break
-    print(val)
+# while True:
+#     try:
+#         print(feibo.__next__())
+#     except StopIteration:
+#         break
