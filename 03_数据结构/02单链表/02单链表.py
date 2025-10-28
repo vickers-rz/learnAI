@@ -1,4 +1,4 @@
-class Node:
+ class Node:
     """创建单链表节点"""
 
     def __init__(self, data):
