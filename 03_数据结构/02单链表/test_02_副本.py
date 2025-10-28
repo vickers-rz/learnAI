@@ -84,26 +84,33 @@ class LinkList:
             
         return count
 
+    # def travel(self):
+    #     """
+    #     遍历链表并打印所有节点的数据
+    #
+    #     实现原理：
+    #     1. 使用current指针从头节点开始遍历
+    #     2. 依次打印每个节点的数据
+    #     3. 当current为None时，说明到达链表末尾，结束遍历
+    #
+    #     示例输出：如果链表中有节点数据为 10 20 30，则输出 "10 20 30 "
+    #     """
+    #     # current指针指向当前正在访问的节点，初始指向头节点
+    #     current = self.__head
+    #
+    #     # 循环遍历链表直到末尾(None)
+    #     while current != None:
+    #         print(current.data, end=" ")  # 打印当前节点的数据，不换行
+    #         current = current.next        # 移动到下一个节点
+    #
+    #     print("")  # 遍历结束后换行
+
     def travel(self):
-        """
-        遍历链表并打印所有节点的数据
-        
-        实现原理：
-        1. 使用current指针从头节点开始遍历
-        2. 依次打印每个节点的数据
-        3. 当current为None时，说明到达链表末尾，结束遍历
-        
-        示例输出：如果链表中有节点数据为 10 20 30，则输出 "10 20 30 "
-        """
-        # current指针指向当前正在访问的节点，初始指向头节点
         current = self.__head
-        
-        # 循环遍历链表直到末尾(None)
-        while current != None:
-            print(current.data, end=" ")  # 打印当前节点的数据，不换行
-            current = current.next        # 移动到下一个节点
-            
-        print("")  # 遍历结束后换行
+        while current is not None: # 是可以打印到尾节点的，因为尾节点自身的内存指针并非None，只是其next域为None而已。走过了尾节点，才会去到None。
+            print(f"访问节点: {current.data}")
+            current = current.next
+        print("遍历结束")
 
     def add(self, data):
         """
@@ -294,3 +301,22 @@ link_list.remove(50)   # 删除50: 20 -> 10 -> 30
 print("删除50后遍历链表:")
 link_list.travel()     # 输出: 20 10 30
 """
+
+
+link_list = LinkList()
+print("链表是否为空:", link_list.is_empty())  # True
+
+# 2. 添加元素
+link_list.add(10)      # 头插法添加10: 10
+link_list.add(20)      # 头插法添加20: 20 -> 10
+link_list.append(30)   # 尾插法添加30: 20 -> 10 -> 30
+link_list.insert(1, 50) # 在位置1插入50: 20 -> 50 -> 10 -> 30
+
+# 3. 查看链表信息
+print("链表长度:", link_list.length())  # 4
+print("遍历链表:")
+link_list.travel()  # 输出: 20 50 10 30
+
+# 4. 查找元素
+print("是否存在元素50:", link_list.search(50))  # True
+print("是否存在元素100:", link_list.search(100))  # False
