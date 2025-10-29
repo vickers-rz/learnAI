@@ -1,9 +1,9 @@
 class Node:
-    """创建单链表节点"""
-
-    def __init__(self, data):
-        self.data = data
-        self.next = None
+   """创建双链表节点"""
+   def __init__(self, data):
+       self.data = data
+       self.next = None
+       self.prev = None
 
 
 class LinkList:
@@ -13,7 +13,7 @@ class LinkList:
 
     def is_empty(self):
         # 链表是否为空
-        return self.__head == None # 判断当前节点是否是头节点，如果是头节点，则返回True
+        return self.__head == None
 
     def length(self):
         # 链表长度
