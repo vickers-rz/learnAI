@@ -9,18 +9,18 @@ class Stack:
 
     def push(self, data):
         """添加一个新元素，压入栈顶"""
-        self.__list.append(data)
+        self.__list.append(data) ## 栈的栈顶就是对应列表的尾部
  
     def pop(self):
         """弹出一个栈顶的元素（移除且返回）"""
-        if not self.is_empty():  # 添加一个检查，确保栈不为空
-            return self.__list.pop()
+        if not self.is_empty():  # 添加一个检查，确保栈不为空。
+            return self.__list.pop() ## 列表的pop方法不指定下标的话，默认返回列表末尾的元素，并删除该元素。
         else:
             return "这是一个空栈！"  # 如果栈为空，则抛出异常
 
     def peek(self):
         """返回栈顶元素，不移除元素"""
-        if self.__list:
+        if self.__list: # 栈不为空。“非零即真，非空即真”，不空即真。
             return self.__list[-1]
         else:
             return None
