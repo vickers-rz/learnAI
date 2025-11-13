@@ -63,15 +63,21 @@
 #
 # print(missing_values)
 
-#
-# # drop_duplicates
-# import pandas as pd
-#
-# series = pd.Series(['a', 'b', 'b', 'c', 'c', 'c', 'd'])
-# print(series)
-# series_unique = series.drop_duplicates(keep='last', ignore_index=True)
-# print(series_unique)
 
+# drop_duplicates
+import pandas as pd
+
+series = pd.Series(['a', 'b', 'b', 'c', 'c', 'c', 'd'])
+print(series)
+# series_unique = series.drop_duplicates(keep='last', ignore_index=True)
+'''
+0    a
+1    b
+2    c
+3    d
+'''
+series_unique = series.drop_duplicates(keep='last', ignore_index=False)
+print(series_unique)
 
 
 
@@ -114,7 +120,7 @@
 # print(s)
 # # 使用自定义函数对Series进行平方变换
 # transformed_series = s.transform(square, y='hello')
-#
+# 参数是一个个的带入到函数中
 # print(transformed_series)
 
 
@@ -150,6 +156,11 @@
 # # print(s.shape)
 #
 # res = s.sort_index(level=2, ascending=True, sort_remaining=True, ignore_index=False)
+"""
+你的 arrays 创建了一个二级索引（MultiIndex）
+但是 level 参数是从 0 开始计数的
+对于二级索引，有效的 level 值只能是 0 或 1
+"""
 # print(res)
 
 
@@ -165,15 +176,15 @@
 # print(series[series > 40])
 
 
-
-import pandas as pd
-
-# 创建三个Series
-s1 = pd.Series([1, 2, 3], index=['a', 'b', 'c'])
-s2 = pd.Series([4, 5, 6], index=['c', 'd', 'f'])
-s3 = pd.Series([7, 8, 9], index=['e', 'f', 'g'])
-
-# 使用concat连接Series
-result = pd.concat([s1, s2, s3])
-
-print(result)
+#
+# import pandas as pd
+#
+# # 创建三个Series
+# s1 = pd.Series([1, 2, 3], index=['a', 'b', 'c'])
+# s2 = pd.Series([4, 5, 6], index=['c', 'd', 'f'])
+# s3 = pd.Series([7, 8, 9], index=['e', 'f', 'g'])
+#
+# # 使用concat连接Series
+# result = pd.concat([s1, s2, s3])
+#
+# print(result)

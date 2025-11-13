@@ -25,7 +25,7 @@ print(str(feibo).strip("[]"))
 4. 如果有则返回`False`，否则返回`True`。
 """
 
-"""
+
 import math
 num = int(input("输入一个整数:"))
 if num <= 1:
@@ -36,4 +36,4 @@ for i in range(2, int(math.sqrt(num)) + 1):
     else:
         print("是素数")
 
-"""
+
