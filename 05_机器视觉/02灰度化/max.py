@@ -21,7 +21,9 @@ for i in range(image_shape[0]):
         image_gray[i][j] = max(image_np[i, j][0], image_np[i, j][1], image_np[i, j][2])
 
 # 5.显示图像
+cv2.namedWindow("image_np", cv2.WINDOW_NORMAL)
 cv2.imshow('image_np', image_np)
+cv2.namedWindow("image_gray", cv2.WINDOW_NORMAL)
 cv2.imshow('image_gray', image_gray)
 cv2.waitKey(0)
 
