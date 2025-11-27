@@ -18,7 +18,7 @@ cv_gray = cv2.cvtColor(image_np, cv2.COLOR_BGR2GRAY)
 # shape[1]代表的是图像的宽度
 image_shape = image_np.shape
 
-# 创建一个单通道的全零数组，此时就需要创建一个与原图大小相同的单通道数组
+# 创建一个单通道的全零数组，此时就需要创建一个与原图大小相 同的单通道数组
 # zeros:按照高和宽的顺序来创建的
 # image_gray就是我们创建的一个灰度图模块
 image_gray = np.zeros((image_shape[0], image_shape[1]), dtype=np.uint8)

@@ -20,6 +20,10 @@ maxval = 255
 # image_thresh里存放的是二值化的图(本质上是与image_gray大小相同的单通道数组)
 ret, image_thresh = cv2.threshold(image_gray, thresh, maxval, cv2.THRESH_BINARY)
 
+# OTSU自动阈值示例：
+# ret_otsu, image_thresh_otsu = cv2.threshold(image_gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+# print(f"OTSU算法自动计算出的最佳阈值为: {ret_otsu}")
+
 # # 为了能够遍历到灰度图的所有像素点，所以需要获取灰度图的形状
 # image_shape = image_gray.shape
 #
@@ -51,6 +55,12 @@ ret, image_thresh = cv2.threshold(image_gray, thresh, maxval, cv2.THRESH_BINARY)
 #
 # # 显示二值化结果
 # cv2.imshow('image_thresh', image_thresh)
+# 创建可调整大小的窗口
+cv2.namedWindow('image_np', cv2.WINDOW_NORMAL)
+cv2.namedWindow('image_thresh', cv2.WINDOW_NORMAL)
+
+# 显示原图像
+cv2.imshow('image_np', image_np)
 
 # 显示opencv的接口二值化后的图像
 cv2.imshow('image_thresh', image_thresh)
@@ -59,5 +69,6 @@ cv2.imshow('image_thresh', image_thresh)
 # 使用waitKey()去固定窗口
 cv2.waitKey(0)
 
-
+# 释放所有窗口资源
+cv2.destroyAllWindows()
 
