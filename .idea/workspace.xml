@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3662fa3-44e9-4726-8d56-daa1544757c9" name="更改" comment="test" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="34WCPLcVfkKypXYcGnwFEpR2xHc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01Series的创建.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01线图.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02散点图.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04数据操作.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04饼图.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.2_同图正余弦.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4道题.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Get_Lena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KNN_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KNN_test02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OTSU原理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OTSU配合多种二值化.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pandas_Zero_To_Hero.executor&quot;: &quot;Run&quot;,
+    &quot;Python.average.executor&quot;: &quot;Run&quot;,
+    &quot;Python.de.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_lena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.importcv2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kernel_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.max.executor&quot;: &quot;Run&quot;,
+    &quot;Python.qt_cv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tempfile_1764210749188.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tempfile_1764212997776.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tempfile_1764318381394.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_阈值法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.thresh_binary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.thresh_trunc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.weight_average.executor&quot;: &quot;Run&quot;,
+    &quot;Python.两种不同的opencv内置的灰度化的方式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.全手写Otsu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.利用np手动OTSU.executor&quot;: &quot;Run&quot;,
+    &quot;Python.椒盐_中值滤波.executor&quot;: &quot;Run&quot;,
+    &quot;Python.综合实战.executor&quot;: &quot;Run&quot;,
+    &quot;Python.自适应阈值.executor&quot;: &quot;Run&quot;,
+    &quot;Python.装饰器2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/LearnAI/05_机器视觉/05形态学变换&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="LearnAI" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="LearnAI" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\LearnAI\05_机器视觉\05形态学变换" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\LearnAI\05_机器视觉\04自适应二值化" />
+      <recent name="F:\LearnAI\04_线代与数据挖掘\04Pandas Series数据处理" />
+      <recent name="F:\LearnAI\04_线代与数据挖掘\06【项目】学生成绩统计可视化" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-PY-253.28294.336" />
+        <option value="bundled-python-sdk-0978a7220b69-9867c7d4c0a4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.28294.336" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="d3662fa3-44e9-4726-8d56-daa1544757c9" name="更改" comment="" />
+      <created>1761319915464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761319915464</updated>
+      <workItem from="1761319916669" duration="116000" />
+      <workItem from="1763123588347" duration="798000" />
+      <workItem from="1763341393823" duration="351000" />
+      <workItem from="1763341771480" duration="140000" />
+      <workItem from="1763343593572" duration="301000" />
+      <workItem from="1763343906465" duration="362000" />
+      <workItem from="1763344480716" duration="1599000" />
+      <workItem from="1763346480122" duration="10466000" />
+      <workItem from="1763433020497" duration="100000" />
+      <workItem from="1763433134072" duration="3722000" />
+      <workItem from="1764140869342" duration="16000" />
+      <workItem from="1764142870161" duration="7667000" />
+      <workItem from="1764205515221" duration="10609000" />
+      <workItem from="1764225894331" duration="3042000" />
+      <workItem from="1764230521982" duration="5218000" />
+      <workItem from="1764292304608" duration="1872000" />
+      <workItem from="1764301022755" duration="126000" />
+      <workItem from="1764301172862" duration="201000" />
+      <workItem from="1764301384203" duration="821000" />
+      <workItem from="1764304267033" duration="28000" />
+      <workItem from="1764304312472" duration="799000" />
+      <workItem from="1764305175976" duration="10578000" />
+      <workItem from="1764322788536" duration="920000" />
+      <workItem from="1764323753313" duration="995000" />
+      <workItem from="1764324752978" duration="60000" />
+      <workItem from="1764325668779" duration="558000" />
+      <workItem from="1764326240107" duration="104000" />
+      <workItem from="1764326352921" duration="894000" />
+      <workItem from="1764570788664" duration="718000" />
+      <workItem from="1764637077198" duration="67000" />
+      <workItem from="1764729958873" duration="1064000" />
+      <workItem from="1764815735757" duration="239000" />
+      <workItem from="1764815999265" duration="218000" />
+      <workItem from="1764936153954" duration="256000" />
+      <workItem from="1764936420760" duration="85000" />
+      <workItem from="1765259122921" duration="550000" />
+      <workItem from="1765259744571" duration="27000" />
+      <workItem from="1765259782956" duration="2152000" />
+      <workItem from="1765264353905" duration="500000" />
+      <workItem from="1765265330974" duration="198000" />
+      <workItem from="1765265561560" duration="1215000" />
+      <workItem from="1765270515910" duration="3418000" />
+    </task>
+    <task id="LOCAL-00001" summary="数据挖掘">
+      <option name="closed" value="true" />
+      <created>1763026780602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763026780602</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更正文档位置">
+      <option name="closed" value="true" />
+      <created>1763037230376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763037230376</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更正文档位置">
+      <option name="closed" value="true" />
+      <created>1763037236302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763037236302</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增文档">
+      <option name="closed" value="true" />
+      <created>1763344502390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763344502390</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加cv2.resizeWindow(cv2.namedWindow(&quot;image&quot;, cv2.WINDOW_NORMAL)在cv2.imshow()之前，可以调整视图大小">
+      <option name="closed" value="true" />
+      <created>1763348929740</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763348929740</updated>
+    </task>
+    <task id="LOCAL-00006" summary="二值化详细分析">
+      <option name="closed" value="true" />
+      <created>1764232634333</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764232634333</updated>
+    </task>
+    <task id="LOCAL-00007" summary="二值化详细分析">
+      <option name="closed" value="true" />
+      <created>1764232641110</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764232641110</updated>
+    </task>
+    <task id="LOCAL-00008" summary="自适应二值化详细分析">
+      <option name="closed" value="true" />
+      <created>1764318900002</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764318900002</updated>
+    </task>
+    <task id="LOCAL-00009" summary="腐蚀和膨胀">
+      <option name="closed" value="true" />
+      <created>1764324713419</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764324713419</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test">
+      <option name="closed" value="true" />
+      <created>1764733593555</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764733593555</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据挖掘" />
+    <MESSAGE value="更正文档位置" />
+    <MESSAGE value="新增文档" />
+    <MESSAGE value="添加cv2.resizeWindow(cv2.namedWindow(&quot;image&quot;, cv2.WINDOW_NORMAL)在cv2.imshow()之前，可以调整视图大小" />
+    <MESSAGE value="二值化详细分析" />
+    <MESSAGE value="自适应二值化详细分析" />
+    <MESSAGE value="腐蚀和膨胀" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/06_以项目为导向的NLP知识选学/day02_KNN/KNN_test.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Learn_AI$3_2_.coverage" NAME="3.2_同图正余弦 覆盖结果" MODIFIED="1763344169520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_线代与数据挖掘/03_Matplotlib" />
+    <SUITE FILE_PATH="coverage/Learn_AI$tempfile_1764210749188.coverage" NAME="tempfile_1764210749188 覆盖结果" MODIFIED="1764210857313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/03二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$main.coverage" NAME="main 覆盖结果" MODIFIED="1765261094071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_以项目为导向的NLP知识选学" />
+    <SUITE FILE_PATH="coverage/Learn_AI$Otsu.coverage" NAME="全手写Otsu 覆盖结果" MODIFIED="1764238384169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/03二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$tempfile_1764212997776.coverage" NAME="tempfile_1764212997776 覆盖结果" MODIFIED="1764213003564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/03二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$opencv.coverage" NAME="两种不同的opencv内置的灰度化的方式 覆盖结果" MODIFIED="1764227241505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/02灰度化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$test_.coverage" NAME="test_阈值法 覆盖结果" MODIFIED="1764209550241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/03二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$max.coverage" NAME="max 覆盖结果" MODIFIED="1763347732632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/02灰度化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$_.coverage" NAME="椒盐_中值滤波 覆盖结果" MODIFIED="1764211047877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/03二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$thresh_trunc.coverage" NAME="thresh_trunc 覆盖结果" MODIFIED="1764242777235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/03二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$kernel_demo.coverage" NAME="kernel_demo 覆盖结果" MODIFIED="1764323579840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/05形态学变换" />
+    <SUITE FILE_PATH="coverage/Learn_AI$tempfile_1764318381394.coverage" NAME="tempfile_1764318381394 覆盖结果" MODIFIED="1764318401364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/04自适应二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$test.coverage" NAME="test 覆盖结果" MODIFIED="1764324228679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/05形态学变换" />
+    <SUITE FILE_PATH="coverage/Learn_AI$OTSU.coverage" NAME="OTSU原理 覆盖结果" MODIFIED="1764227055843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/03二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$importcv2.coverage" NAME="importcv2 覆盖结果" MODIFIED="1763341710111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/Learn_AI$KNN_test.coverage" NAME="KNN_test 覆盖结果" MODIFIED="1765261194473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_以项目为导向的NLP知识选学" />
+    <SUITE FILE_PATH="coverage/Learn_AI$npOTSU.coverage" NAME="利用np手动OTSU 覆盖结果" MODIFIED="1764227028105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/03二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$01.coverage" NAME="01线图 覆盖结果" MODIFIED="1763347942318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_线代与数据挖掘/03_Matplotlib" />
+    <SUITE FILE_PATH="coverage/Learn_AI$thresh_binary.coverage" NAME="thresh_binary 覆盖结果" MODIFIED="1764210149344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/03二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$weight_average.coverage" NAME="weight_average 覆盖结果" MODIFIED="1763434514423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/02灰度化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$.coverage" NAME="自适应阈值 覆盖结果" MODIFIED="1764317319844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/04自适应二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$KNN_test02.coverage" NAME="KNN_test02 覆盖结果" MODIFIED="1765264227500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_以项目为导向的NLP知识选学" />
+    <SUITE FILE_PATH="coverage/Learn_AI$qt_cv.coverage" NAME="qt_cv 覆盖结果" MODIFIED="1763347541854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉" />
+    <SUITE FILE_PATH="coverage/Learn_AI$02.coverage" NAME="02散点图 覆盖结果" MODIFIED="1763434679279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_线代与数据挖掘/03_Matplotlib" />
+    <SUITE FILE_PATH="coverage/Learn_AI$get_lena.coverage" NAME="get_lena 覆盖结果" MODIFIED="1763377295004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/01" />
+    <SUITE FILE_PATH="coverage/Learn_AI$average.coverage" NAME="average 覆盖结果" MODIFIED="1763344202231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/02灰度化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$test_2.coverage" NAME="test_2 覆盖结果" MODIFIED="1764238329602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/03二值化" />
+    <SUITE FILE_PATH="coverage/Learn_AI$simple_demo.coverage" NAME="simple_demo 覆盖结果" MODIFIED="1764324494403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_机器视觉/05形态学变换" />
+  </component>
+</project>
