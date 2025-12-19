@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3662fa3-44e9-4726-8d56-daa1544757c9" name="更改" comment="test" />
+    <list default="true" id="d3662fa3-44e9-4726-8d56-daa1544757c9" name="更改" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,66 +40,67 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.01Series的创建.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01线图.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02散点图.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04数据操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04饼图.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.2_同图正余弦.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4道题.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Get_Lena.executor&quot;: &quot;Run&quot;,
-    &quot;Python.KNN_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.KNN_test02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OTSU原理.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OTSU配合多种二值化.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pandas_Zero_To_Hero.executor&quot;: &quot;Run&quot;,
-    &quot;Python.average.executor&quot;: &quot;Run&quot;,
-    &quot;Python.de.executor&quot;: &quot;Run&quot;,
-    &quot;Python.get_lena.executor&quot;: &quot;Run&quot;,
-    &quot;Python.importcv2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.kernel_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.max.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qt_cv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simple_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tempfile_1764210749188.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tempfile_1764212997776.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tempfile_1764318381394.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_阈值法.executor&quot;: &quot;Run&quot;,
-    &quot;Python.thresh_binary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.thresh_trunc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.weight_average.executor&quot;: &quot;Run&quot;,
-    &quot;Python.两种不同的opencv内置的灰度化的方式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.全手写Otsu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.利用np手动OTSU.executor&quot;: &quot;Run&quot;,
-    &quot;Python.椒盐_中值滤波.executor&quot;: &quot;Run&quot;,
-    &quot;Python.综合实战.executor&quot;: &quot;Run&quot;,
-    &quot;Python.自适应阈值.executor&quot;: &quot;Run&quot;,
-    &quot;Python.装饰器2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/LearnAI/05_机器视觉/05形态学变换&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.01Series的创建.executor": "Run",
+    "Python.01线图.executor": "Run",
+    "Python.02散点图.executor": "Run",
+    "Python.03案例.executor": "Run",
+    "Python.04数据操作.executor": "Run",
+    "Python.04饼图.executor": "Run",
+    "Python.3.2_同图正余弦.executor": "Run",
+    "Python.4道题.executor": "Run",
+    "Python.Get_Lena.executor": "Run",
+    "Python.KNN_test.executor": "Run",
+    "Python.KNN_test02.executor": "Run",
+    "Python.OTSU原理.executor": "Run",
+    "Python.OTSU配合多种二值化.executor": "Run",
+    "Python.Pandas_Zero_To_Hero.executor": "Run",
+    "Python.average.executor": "Run",
+    "Python.de.executor": "Run",
+    "Python.get_lena.executor": "Run",
+    "Python.importcv2.executor": "Run",
+    "Python.kernel_demo.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.max.executor": "Run",
+    "Python.qt_cv.executor": "Run",
+    "Python.simple_demo.executor": "Run",
+    "Python.tempfile_1764210749188.executor": "Run",
+    "Python.tempfile_1764212997776.executor": "Run",
+    "Python.tempfile_1764318381394.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_2.executor": "Run",
+    "Python.test_阈值法.executor": "Run",
+    "Python.thresh_binary.executor": "Run",
+    "Python.thresh_trunc.executor": "Run",
+    "Python.weight_average.executor": "Run",
+    "Python.两种不同的opencv内置的灰度化的方式.executor": "Run",
+    "Python.全手写Otsu.executor": "Run",
+    "Python.利用np手动OTSU.executor": "Run",
+    "Python.椒盐_中值滤波.executor": "Run",
+    "Python.综合实战.executor": "Run",
+    "Python.自适应阈值.executor": "Run",
+    "Python.装饰器2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "F:/LearnAI/05_机器视觉/05形态学变换",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="LearnAI" is-module-sdk="true">
@@ -173,6 +176,10 @@
       <workItem from="1765265330974" duration="198000" />
       <workItem from="1765265561560" duration="1215000" />
       <workItem from="1765270515910" duration="3418000" />
+      <workItem from="1765447401388" duration="197000" />
+      <workItem from="1765447612796" duration="856000" />
+      <workItem from="1765539474542" duration="598000" />
+      <workItem from="1765766436478" duration="2174000" />
     </task>
     <task id="LOCAL-00001" summary="数据挖掘">
       <option name="closed" value="true" />
