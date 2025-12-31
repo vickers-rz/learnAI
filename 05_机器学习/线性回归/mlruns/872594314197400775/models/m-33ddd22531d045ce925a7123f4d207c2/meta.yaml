@@ -1,0 +1,10 @@
+artifact_location: file:///f:/LearnAI/05_机器学习/线性回归/mlruns/872594314197400775/models/m-33ddd22531d045ce925a7123f4d207c2/artifacts
+creation_timestamp: 1767163732532
+experiment_id: '872594314197400775'
+last_updated_timestamp: 1767163736170
+model_id: m-33ddd22531d045ce925a7123f4d207c2
+model_type: null
+name: model
+source_run_id: 397340978ff7491eb1afb36ada59c580
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///f:/LearnAI/05_机器学习/线性回归/mlruns/872594314197400775/b3f197643ad84bf6a78bc815052590c4/artifacts
+end_time: 1767163724951
+entry_point_name: ''
+experiment_id: '872594314197400775'
+lifecycle_stage: active
+run_id: b3f197643ad84bf6a78bc815052590c4
+run_name: Ridge_Alpha0.1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767163720990
+status: 3
+tags: []
+user_id: wrz

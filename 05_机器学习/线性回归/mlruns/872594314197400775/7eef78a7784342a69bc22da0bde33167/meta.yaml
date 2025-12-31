@@ -1,0 +1,14 @@
+artifact_uri: file:///f:/LearnAI/05_机器学习/线性回归/mlruns/872594314197400775/7eef78a7784342a69bc22da0bde33167/artifacts
+end_time: 1767163714004
+entry_point_name: ''
+experiment_id: '872594314197400775'
+lifecycle_stage: active
+run_id: 7eef78a7784342a69bc22da0bde33167
+run_name: LinearRegression_Default
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767163703191
+status: 3
+tags: []
+user_id: wrz

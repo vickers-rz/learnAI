@@ -1,0 +1,14 @@
+artifact_uri: file:///f:/LearnAI/05_机器学习/线性回归/mlruns/872594314197400775/73bc72da40f44f5b839a2867e3df992a/artifacts
+end_time: 1767163945538
+entry_point_name: ''
+experiment_id: '872594314197400775'
+lifecycle_stage: active
+run_id: 73bc72da40f44f5b839a2867e3df992a
+run_name: Best_Model_Final
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767163941505
+status: 3
+tags: []
+user_id: wrz

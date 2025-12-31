@@ -1,0 +1,19 @@
+{
+  "model_type": "Ridge",
+  "alpha": 0.1,
+  "features": [
+    "age",
+    "sex",
+    "bmi",
+    "bp",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+  ],
+  "training_samples": 353,
+  "test_samples": 89,
+  "created_at": "2025-12-31T14:52:25.295981"
+}
